@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD Agency - Реклама и продвижение</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Общий стиль */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        section {
+            padding: 100px 20px;
+        }
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #000, #6e0000);
+            text-align: center;
+        }
+        header img {
+            width: 150px;
+            margin-bottom: 20px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            animation: fadeInDown 2s ease-in-out;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            animation: fadeIn 2.5s ease-in-out;
+        }
+        header .btn {
+            padding: 15px 30px;
+            background: #ff0000;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            animation: fadeInUp 3s ease-in-out;
+        }
+        .section {
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            animation: fadeInDown 1s ease-in-out;
+        }
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 50px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .feature {
+            flex: 1 1 300px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            animation: fadeInUp 2s ease-in-out;
+            text-align: left;
+        }
+        .feature h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .feature p {
+            font-size: 1em;
+        }
+        footer {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+        footer a {
+            color: #ff0000;
+        }
+        /* Анимации */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <img src="https://assets.onecompiler.app/42z4s8xcr/42z4sax6q/logo%20SD.png" alt="SD Agency Logo">
+        <h1>🔥 Реклама и продвижение</h1>
+        <p>Комплексный подход для роста вашего проекта</p>
+        <a href="https://t.me/SDagency_support" class="btn">Связаться с нами</a>
+    </header>
+
+    <!-- Услуги -->
+    <section class="section">
+        <h2>Наши услуги</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>📈 Анализ и стратегия</h3>
+                <p>Изучение аудитории, конкурентов и создание рекламного поста.</p>
+            </div>
+            <div class="feature">
+                <h3>🧍 Рекламные кампании</h3>
+                <p>Оптимизация бюджета и привлечение лидов для вашего бизнеса.</p>
+            </div>
+            <div class="feature">
+                <h3>🔔 Сопровождение</h3>
+                <p>Отчётность и рекомендации для повышения эффективности.</p>
+            </div>
+            <div class="feature">
+                <h3>🚀 Развитие</h3>
+                <p>Помощь в росте активности и стратегии повышения прибыли.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Почему мы -->
+    <section class="section">
+        <h2>Почему мы?</h2>
+        <p>✅ Прозрачность работы<br>✅ Опыт в разных нишах<br>✅ Достижение целей клиента</p>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <p>Связаться с нами: <a href="https://t.me/SDagency_support">@SDagency_support</a></p>
+    </footer>
+</body>
+</html>
